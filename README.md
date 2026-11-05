@@ -1,5 +1,7 @@
 # Construction Wagon
 
+**Factorio compatibility:** 2.1
+
 This mod adds a specialized **construction cargo wagon** with **equipment grid** to Factorio, which can be equipped with:
 - **Roboport** for mobile construction and repairs
 - **Batteries** and **power sources** (solar panels, generators, etc.)
