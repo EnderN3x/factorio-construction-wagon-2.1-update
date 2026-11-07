@@ -6,9 +6,6 @@
   "author": "danbka33, update by EnderN3x",
   "contact": "",
   "homepage": "",
-  "author": "danbka33, update by EnderN3x",
-  "contact": "",
-  "homepage": "",
   "description": "Add wagons with grid support and special roboport. Flexible mod configuration.",
   "dependencies": [
     "base >= 2.1.0",
