@@ -9,7 +9,6 @@
   "description": "Add wagons with grid support and special roboport. Flexible mod configuration.",
   "dependencies": [
     "base >= 2.1.0",
-    "base >= 2.1.0",
     "? pyindustry",
     "? pyalternativeenergy",
     "? pypetroleumhandling",
