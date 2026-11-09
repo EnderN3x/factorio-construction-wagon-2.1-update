@@ -32,7 +32,7 @@ if mods["pyindustry"] then
         }
     }
     constructionTrainResearchT2.prerequisites = { "railway-mk02", "construction-wagon"}
-    constructionTrainResearchT2.icon = "__construction-wagon__/graphics/technology/construction-wagon.png"
+    constructionTrainResearchT2.icon = "__construction-wagon-update__/graphics/technology/construction-wagon.png"
     constructionTrainResearchT2.icon_size = 1024
 
     local constructionWagonT3 = table.deepcopy(constructionWagon);
@@ -63,7 +63,7 @@ if mods["pyindustry"] then
         }
     }
     constructionTrainResearchT3.prerequisites = { "railway-mk03", "construction-wagon-mk2"}
-    constructionTrainResearchT3.icon = "__construction-wagon__/graphics/technology/construction-wagon.png"
+    constructionTrainResearchT3.icon = "__construction-wagon-update__/graphics/technology/construction-wagon.png"
     constructionTrainResearchT3.icon_size = 1024
 
     local constructionWagonT4 = table.deepcopy(constructionWagon);
@@ -93,7 +93,7 @@ if mods["pyindustry"] then
         }
     }
     constructionTrainResearchT4.prerequisites = { "railway-mk04", "construction-wagon-mk3"}
-    constructionTrainResearchT4.icon = "__construction-wagon__/graphics/technology/construction-wagon.png"
+    constructionTrainResearchT4.icon = "__construction-wagon-update__/graphics/technology/construction-wagon.png"
     constructionTrainResearchT4.icon_size = 1024
 
     data.extend({

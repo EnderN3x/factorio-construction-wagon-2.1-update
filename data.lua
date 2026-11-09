@@ -30,7 +30,7 @@ constructionWagon.name = "construction-cargo-wagon"
 constructionWagon.equipment_grid = "construction-wagon"
 constructionWagon.minable = { mining_time = 0.5, result = "construction-cargo-wagon" }
 constructionWagon.allow_robot_dispatch_in_automatic_mode = true
-constructionWagon.icon = "__construction-wagon__/graphics/icons/cargo-wagon.png"
+constructionWagon.icon = "__construction-wagon-update__/graphics/icons/cargo-wagon.png"
 constructionWagon.inventory_size = settings.startup["construction-wagon-wagon-inventory-size"].value
 
 constructionWagon.pictures = {
@@ -38,7 +38,7 @@ constructionWagon.pictures = {
     {
         layers =
         {
-            util.sprite_load("__construction-wagon__/graphics/entity/cargo-wagon/cargo-wagon",
+            util.sprite_load("__construction-wagon-update__/graphics/entity/cargo-wagon/cargo-wagon",
                 {
                     dice = 4,
                     priority = "very-low",
@@ -82,7 +82,7 @@ constructionWagon.horizontal_doors =
 {
     layers =
     {
-        util.sprite_load("__construction-wagon__/graphics/entity/cargo-wagon/cargo-wagon-door-horizontal",
+        util.sprite_load("__construction-wagon-update__/graphics/entity/cargo-wagon/cargo-wagon-door-horizontal",
             {
                 frame_count = 8,
                 scale = 0.5,
@@ -105,7 +105,7 @@ constructionWagon.vertical_doors =
 {
     layers =
     {
-        util.sprite_load("__construction-wagon__/graphics/entity/cargo-wagon/cargo-wagon-door-vertical",
+        util.sprite_load("__construction-wagon-update__/graphics/entity/cargo-wagon/cargo-wagon-door-vertical",
             {
                 frame_count = 8,
                 scale = 0.5,
@@ -137,7 +137,7 @@ constructionTrainRoboportEquipment.charging_station_count = settings.startup["co
 constructionTrainRoboportEquipment.categories = {"construction-wagon-equipment"}
 constructionTrainRoboportEquipment.sprite =
 {
-    filename = "__construction-wagon__/graphics/equipment/construction-wagon-roboport.png",
+    filename = "__construction-wagon-update__/graphics/equipment/construction-wagon-roboport.png",
     width = 128,
     height = 128,
     priority = "medium",
@@ -151,11 +151,11 @@ local constructionWagonRoboport = table.deepcopy(data.raw["item"]["personal-robo
 
 constructionWagonRoboport.name = "construction-wagon-roboport"
 constructionWagonRoboport.place_as_equipment_result = "construction-wagon-roboport-equipment"
-constructionWagonRoboport.icon = "__construction-wagon__/graphics/icons/construction-wagon-roboport.png"
+constructionWagonRoboport.icon = "__construction-wagon-update__/graphics/icons/construction-wagon-roboport.png"
 
 constructionWagonItem.name = "construction-cargo-wagon"
 constructionWagonItem.place_result = "construction-cargo-wagon";
-constructionWagonItem.icon = "__construction-wagon__/graphics/icons/cargo-wagon.png"
+constructionWagonItem.icon = "__construction-wagon-update__/graphics/icons/cargo-wagon.png"
 
 data.extend({ constructionWagonItem, constructionWagonRoboport })
 
@@ -185,7 +185,7 @@ constructionTrainResearch.effects =
     }
 }
 constructionTrainResearch.prerequisites = { "railway", "personal-roboport-equipment" }
-constructionTrainResearch.icon = "__construction-wagon__/graphics/technology/construction-wagon.png"
+constructionTrainResearch.icon = "__construction-wagon-update__/graphics/technology/construction-wagon.png"
 constructionTrainResearch.icon_size = 1024
 
 data.extend({ constructionTrainResearch })
